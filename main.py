@@ -57,5 +57,13 @@ def divide(a, b):
     print(a/b)
 
 divide(9, 0)
+#Generators
+price = [210,300,400,500]
+
+price_iter = price.__iter__()
+
+print(price_iter.__next__())
+print(price_iter.__next__())
+print(price_iter.__next__())
     
     
