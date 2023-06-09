@@ -11,7 +11,12 @@ aiofiles
 
 #for database   #new
 sqlalchemy         
-psycopg2
+psycopg2-binary
 
-#for loading environment variables  #new
+#for loading environment variables
 python-dotenv
+
+#for email validation            
+pydantic[email] 
+#hashing             
+passlib[bcrypt]
