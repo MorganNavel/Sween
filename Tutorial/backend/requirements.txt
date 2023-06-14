@@ -20,3 +20,7 @@ python-dotenv
 pydantic[email] 
 #hashing             
 passlib[bcrypt]
+
+#for testing       #new
+pytest
+requests
